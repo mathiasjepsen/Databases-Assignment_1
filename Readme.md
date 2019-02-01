@@ -8,7 +8,7 @@ Clone the repository, move into /Databases-Assignment_1, and run the following c
 ```
 python simple_db_write.py
 ```
-> This file writes a few key-value pairs to the database. Add your own as you see fit.
+> This command writes a few key-value pairs to the database. Add your own as you see fit.
 ```
 python simple_db_read.py
 ```
@@ -45,6 +45,7 @@ from Simple_db import Simple_db
 
 if __name__ == "__main__":
     db = Simple_db("fruitstore.db")
+    
     db.populate()
     db.print_db_contents()
 ```
